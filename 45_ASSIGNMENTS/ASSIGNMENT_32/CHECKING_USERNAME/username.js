@@ -1,0 +1,12 @@
+"use strict";
+let current_user = ['FizA', 'SaaD', 'AlisHba', 'SaMeer', 'AlIna'];
+let new_user = ['Fiza', 'Hoor', 'Fabiha', 'Nida', 'SaaD'];
+new_user.forEach(newusername => {
+    let lowerCase = newusername.toLowerCase();
+    if (current_user.map(C_name => C_name.toLowerCase()).includes(lowerCase)) {
+        console.log(`The username ${newusername} is not available .please write a different username`);
+    }
+    else {
+        console.log(` The user name  ${newusername} is availale.`);
+    }
+});
