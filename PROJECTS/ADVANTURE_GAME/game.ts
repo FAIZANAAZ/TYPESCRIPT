@@ -10,7 +10,10 @@ console.clear();
 //to dobara pora code na likhna pry bs call krwa den kioky hmy game ko jb tk dobra run nhi krna jb tk koi
 //jeet na jay or game ko again blkl start sy run krna hoga 
 
+
+
 //************************funtion for plying again***************************************** */
+
 
 async function gamerun (){
     
